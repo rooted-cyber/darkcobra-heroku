@@ -1,7 +1,5 @@
 git clone https://github.com/DARK-COBRA/DARKCOBRA
 cd DARK*
-pip install --upgrade pip
-pip3 install -r req*
-pip3 install validators
-pip3 install telethon==1.24.0
+wget https://raw.githubusercontent.com/rooted-cyber/darkcobra-heroku/main/rr.sh
+bash rr.sh
 python3 -m userbot
